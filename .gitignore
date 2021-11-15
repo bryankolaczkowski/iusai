@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# tensorboard log
+tblog/
+
+# saved models
+genr_*/
+
+# excel data
+*.xlsx
+
