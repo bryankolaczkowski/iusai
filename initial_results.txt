@@ -1,0 +1,8 @@
+test_classify.py: (linear model trained on real data)
+                train: loss: 0.4052 - acc: 0.8077 - roc: 0.9005 - prc: 0.8228
+trainfromgan.py: (linear model trained on fake data)
+                train: loss: 0.3272 - acc: 0.8978 - roc: 0.9380 - prc: 0.9247
+                valid: loss: 1.9461 - acc: 0.8939 - roc: 0.9328 - prc: 0.9160
+trainfromgan_nonlin.py: (nonlinear model trained on fake data)
+                train: loss: 0.0858 - acc: 0.9750 - roc: 0.9931 - prc: 0.9924
+                valid: loss: 2.1752 - acc: 0.9701 - roc: 0.9885 - prc: 0.9856
